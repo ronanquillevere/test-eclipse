@@ -12,6 +12,8 @@ public class Main
     	
     	App app = injector.getInstance(App.class);
     	
-    	app.cool(false);
+    	boolean result = app.cool(false);
+    	
+    	System.out.println("result is " + result);
     }
 }
